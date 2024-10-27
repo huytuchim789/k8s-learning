@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: huytumoneyforward/backend-app
+          image: <backend-image-url>
           ports:
             - containerPort: 3000
 ---
